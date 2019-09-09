@@ -1,14 +1,17 @@
 import React from 'react';
+import slugify from 'slugify';
 
 
-export default function Selection(props) {
+export default class Selection extends React.Component {
 
 
 
   render() {
-    const options = this.props.features[feature].map(item => {
-      const itemHash = slugify(JSON.stringify(item));
+   // const options = this.props.features[feature].map(item => {
+     // const itemHash = slugify(JSON.stringify(item));
       return (
+        null
+        /*
         <div key={itemHash} className="feature__item">
           <input
             type="radio"
@@ -22,6 +25,7 @@ export default function Selection(props) {
             {item.name} ({USCurrencyFormat.format(item.cost)})
           </label>
         </div>
+        */
       );
   }
 

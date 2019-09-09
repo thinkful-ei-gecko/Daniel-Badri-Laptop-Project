@@ -1,22 +1,19 @@
 import React from 'react';
+import Features from './Features'
 
-
-export default function FeatureList(props) {
-
-
-
+export default class FeatureList extends React.Component {
   render() {
+
     return (
-      <form className="main__form">
-        //map function
-        <Features 
+      <div className='FeatureList'>
+        <form className="main__form">
+          <h2>Customize Your Laptop</h2>
+            <Features features={this.props.features}
+
         
-        
-        />
+          />
       </form>
+      </div>
     )
-
   }
-
-
 }
