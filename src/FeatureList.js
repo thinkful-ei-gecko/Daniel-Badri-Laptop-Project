@@ -8,9 +8,7 @@ export default class FeatureList extends React.Component {
       <div className='FeatureList'>
         <form className="main__form">
           <h2>Customize Your Laptop</h2>
-            <Features features={this.props.features}
-
-        
+            <Features {...this.props}
           />
       </form>
       </div>
