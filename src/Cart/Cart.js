@@ -1,6 +1,7 @@
 import React from 'react'
-import Summary from './Summary'
-import Total from './Total'
+import Summary from '../Summary/Summary'
+import Total from '../Total/Total'
+import './Cart.css'
 
 export default class Cart extends React.Component {
 

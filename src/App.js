@@ -4,8 +4,8 @@ import React, { Component } from 'react';
 // in both URLs and html attributes
 
 import './App.css';
-import FeatureList from './FeatureList'
-import Cart from './Cart'
+import FeatureList from './FeatureList/FeatureList'
+import Cart from './Cart/Cart'
 
 class App extends Component {
   state = {
